@@ -8,11 +8,11 @@ int main()
 
   std::cout << "Earnings will be calculated as followed.\n";
   // Get the number of hours worked.
-  std::cout << "How many bars did you sell?";
+  std::cout << "How many bars did you sell? Bars sold:";
   std::cin >> bars;
 
   // Get the hourly pay rate.
-  std::cout << "How much was each bar?";
+  std::cout << "How much was each bar? Rate:";
   std::cin >> rate;
 
   // Calculate the pay.
