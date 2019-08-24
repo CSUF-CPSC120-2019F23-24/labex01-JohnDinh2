@@ -4,21 +4,22 @@
 
 int main()
 {
-  double hours, rate, pay;
+  double bars, rate, pay;
 
+  std::cout << "Earnings will be calculated as followed.\n";
   // Get the number of hours worked.
-  std::cout << "How many hours did you work? ";
-  std::cin >> hours;
+  std::cout << "How many bars did you sell?";
+  std::cin >> bars;
 
   // Get the hourly pay rate.
-  std::cout << "How much do you get paid per hour? ";
+  std::cout << "How much was each bar?";
   std::cin >> rate;
 
   // Calculate the pay.
-  pay = hours * rate;
+  pay = bars * rate;
 
   // Display the pay.
-  std::cout << "You have earned $" << pay << std::endl;
+  std::cout << "You got $" << pay << std::endl;
 
   return 0;
 }
