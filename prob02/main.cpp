@@ -7,11 +7,11 @@ int main()
   double bars, rate, pay;
 
   std::cout << "Earnings will be calculated as followed.\n";
-  // Get the number of hours worked.
+  // Get the number of bars sold.
   std::cout << "How many bars did you sell? Bars sold:";
   std::cin >> bars;
 
-  // Get the hourly pay rate.
+  // Get the rate per bar.
   std::cout << "How much was each bar? Rate:";
   std::cin >> rate;
 
